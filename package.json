@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "express": "^4.15.4"
+  },
+  "engines": {
+    "node": "4.6.1"
   }
 }
