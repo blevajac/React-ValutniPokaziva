@@ -40,8 +40,8 @@ class App extends Component {
   }
   componentDidMount(traženaValuta){
     const getData = () => {
-        //const url = `https://cors-anywhere.herokuapp.com/http://api.hnb.hr/tecajn?datum-od=${h.getDateAfterX()}&datum-do=${h.getDateToday()}`;
-        const url = `http://api.hnb.hr/tecajn?datum-od=${h.getDateAfterX()}&datum-do=${h.getDateToday()}`;
+        const url = `https://cors-anywhere.herokuapp.com/http://api.hnb.hr/tecajn?datum-od=${h.getDateAfterX()}&datum-do=${h.getDateToday()}`;
+        //const url = `http://api.hnb.hr/tecajn?datum-od=${h.getDateAfterX()}&datum-do=${h.getDateToday()}`;
 
         axios.get(url, {
             headers: { 'Access-Control-Allow-Origin': '*'}
