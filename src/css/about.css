@@ -1,0 +1,46 @@
+.about-aplikacija {
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: sans-serif;
+        color: #085391;
+}
+
+.about-paragraf-opis {
+  margin: 10px 0 10px 0;
+
+  text-align: center;
+}
+
+.about-aplikacija ul {
+    list-style-type:none;
+}
+
+.about-aplikacija ul li{
+    display: list-item;
+}
+
+.devicon {
+  margin: 25px 0;
+}
+
+.devicon i {
+    margin: 0 5px 0 5px;
+    font-size: 30px;
+}
+
+.devicon-react-original:hover {
+  color: #61DAFB;
+}
+
+.devicon-html5-plain:hover {
+  color: #E54D26;
+}
+
+.devicon-sass-original:hover {
+  color: #CC6699;
+}
+
+.devicon-javascript-plain:hover {
+  color: #F0DB4F;
+}

@@ -3,6 +3,10 @@
 Is an App to show the exchange rate of the Croatian currency with the currency's of thirteen different Countries, through the time span of 30 days. The Application starts with today's date and goes 30 days in the past. It uses a price graph to show and highlight the data fetched.  
 The user can at any time scroll over the graph to see the exchange rate of the designated currency.
 
+***  
+Images:   
+![IMG_01](https://user-images.githubusercontent.com/7116646/30063567-727dc5ac-924f-11e7-80ff-ace89cb127e6.png)  
+![IMG_01](https://user-images.githubusercontent.com/7116646/30063572-7586c32a-924f-11e7-89cc-652f490772ef.png)
 
 The data was fetched from **HNB (Hrvatska Narodna Banka) API** and highlighted in this APP.  
 The Idea for building this small App came from the blog post of **Brandon Morelli** **How I built an Interactive 30-Day Bitcoin Price Graph with React and an API**.  
