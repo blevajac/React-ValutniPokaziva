@@ -16,6 +16,9 @@ class Header extends Component {
                     <li><Link to='/about' >About</Link></li>
                 </ul>
           </div>
+          <div className="top-bar-middle">
+            <hr />
+          </div>
           <div className="top-bar-right">
                 <ul className="menu">
                     <li className="menu-text">

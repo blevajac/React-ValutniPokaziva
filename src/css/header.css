@@ -1,6 +1,48 @@
+/* ----------------------Fancy revealing Animation----------------------------------------------------- */
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes grow-left {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.top-bar-left, .top-bar-right {
+  opacity: 0;
+  animation: fade-in-right ease 0.4s forwards;
+}
+
+.top-bar-middle {
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s forwards;
+  animation-delay: 0.4s;
+}
+
+.top-bar-right {
+  animation-delay: 0.8s;
+}
+
+/* --------------------------------------------------------------------------- */
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
+  height: 80px;
+  color: #d9dbdd;
+}
+
 /*
 .App-header {
   background-color: red;
@@ -16,14 +58,14 @@
     transform: rotate(360deg); } }
 
 .top-bar {
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center ;
   align-content: center ;
   width: 100%;
-  height: 150px;
-  padding: 10px;
+  height: 100px;
   font-size: 1.5em;
   color: grey;
   flex-wrap: wrap;
@@ -35,7 +77,7 @@
   display: inline-flex ;
   align-items: center ;
   text-align: center;
-  width: 60%;
+  width: 50%;
   flex-wrap: wrap;
 }
 
@@ -52,6 +94,10 @@
   margin: 0 3px;
 }
 
+.top-bar-middle {
+  width: 15%;
+}
+
 
 a {
   display: inline;
@@ -59,13 +105,13 @@ a {
 }
 
 .top-bar-right {
-  width: 40%;
+  width: 30%;
 }
 
 .top-bar-right ul {
   list-style-type:none;
   display:flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center ;
 
 }
